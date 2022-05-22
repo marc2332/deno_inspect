@@ -8,7 +8,16 @@ Analyze or uncompile apps created with Deno.
 deno install https://deno.land/x/inspect/mod.ts
 ```
 
-### inspect analyze
+## 📝 Example
+
+```
+deno compile https://github.com/marc2332/deno_inspect/raw/main/example/my_app.ts
+inspect analyze my_app.exe
+```
+
+## 🤔 Commands
+
+### `inspect analyze`
 
 Analyze the specified binary:
 
@@ -44,7 +53,7 @@ Output:
 }
 ```
 
-### inspect uncompile
+### `inspect uncompile`
 
 Uncompile the app:
 
@@ -52,11 +61,6 @@ Uncompile the app:
 inspect uncompile my_app.exe original_deno.exe
 ```
 
-## Example
 
-```
-deno compile https://github.com/marc2332/deno_inspect/raw/main/example/my_app.ts
-inspect analyze my_app.exe
-```
 
 Made by Marc Espín
