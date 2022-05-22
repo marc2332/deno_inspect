@@ -55,7 +55,7 @@ Output:
 
 ### `inspect uncompile`
 
-Uncompile the app:
+Generate a binary with the original Deno binary used to create the compiled app:
 
 ```
 inspect uncompile my_app.exe original_deno.exe
