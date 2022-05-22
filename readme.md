@@ -5,7 +5,7 @@ Analyze or uncompile apps created with Deno.
 ## ✨ Install
 
 ```shell
-deno install https://deno.land/x/inspect/mod.ts
+deno install -n inspect --allow-write --allow-read https://deno.land/x/inspect/mod.ts
 ```
 
 ## 📝 Example

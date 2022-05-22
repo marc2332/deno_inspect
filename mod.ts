@@ -2,7 +2,7 @@ import { Command } from "https://deno.land/x/cliffy@v0.24.2/command/mod.ts";
 
 await new Command()
   .name("inspect")
-  .version("0.1.0")
+  .version("0.1.1")
   .description("Inspect generated binaries by Deno.")
   .command(
     "analyze",
