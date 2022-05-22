@@ -18,7 +18,7 @@ inspect analyze my_app.exe
 
 Output:
 
-```json
+```sh
 {
   argv: [],
   unstable: false,
